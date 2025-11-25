@@ -1,42 +1,20 @@
-### Other ###
-logs
-modules
-dependency-reduced-pom.xml
-target
-.idea
-sys-logs
+# ==================== #
+# By: Lmao stupid Cion #
+# ==================== #
 
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### IntelliJ IDEA ###
-*.iws
+# <= Main => #
 *.iml
-*.ipr
+*.iws
+.zed
+.idea
+.gitattributes
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# <= Gradle =>
+.gradle
+build
+gradle
+gradlew
+gradlew.bat
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
-.DS_Store
-PepeServerScanner/config.properties
+# <= Maven =>
+target/
